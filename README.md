@@ -17,7 +17,7 @@ method like `map()` to organize and optimize our code into building blocks
 of functions, which we can then chain together to create more readable and
 understandable functions.
 
-## Define How the `map()` Method Works
+## 👉 Define How the `map()` Method Works
 
 `Array.prototype.map()` is an array method that iterates over all elements,
 allowing you to apply a function to each element in that array, and changing
@@ -27,7 +27,7 @@ requires defensive copying). This is super important, because it saves us from
 having to create a new array ourselves and copy stuff in there, **or** modifying
 the original elements in the array, which we may need later.
 
-## Demonstrate `map()` With `Array`s
+## 👉Demonstrate `map()` With `Array`s
 
 We use `map()` when we want to perform an action on each element in the collection,
 and "gather" the results into a new `Array`.
@@ -73,7 +73,7 @@ to be transformed. Here, we're passing a function _as an argument_. Arguments
 can be things like `Number` or `String`, but, in JavaScript, **can also** be
 **work**. Very few other programming languages allow that!
 
-The iterator function `map()` expects to be _passed a function as an
+🙌 The iterator function `map()` expects to be _passed a function as an
 argument_ which they will hand each of their elements off to. In the case of
 `map()` it hands each element to the function and stores the return value of
 the function into a new `Array`.
@@ -97,7 +97,7 @@ let rollCall = students.map(function(student) {
 
 That's much shorter. It has all the same advantages of the previous version.
 
-### `map()` With an Arrow Function
+### 👉 `map()` With an Arrow Function
 
 Thanks to arrow functions, we can shorten up the function expression to:
 
